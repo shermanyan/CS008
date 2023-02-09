@@ -1,0 +1,5 @@
+/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/CMakeFiles/TemplatedLinkedlist.dir
+/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/CMakeFiles/Stack.dir
+/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/CMakeFiles/Queue.dir
+/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,21 @@
+queue: [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+
+copy queue to queue1
+queue size: 5
+queue1 size: 5
+
+add to queue1
+
+queue
+top: 1
+size: 5
+[1] [2] [3] [4] [5] 
+
+queue1
+top: 1
+size: 10
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+
+seek test
+seek 5: 5
+queue: [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]

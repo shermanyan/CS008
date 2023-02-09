@@ -1,0 +1,239 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: TemplatedLinkedList
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target TemplatedLinkedlist
+
+
+#############################################
+# Order-only phony target for TemplatedLinkedlist
+
+build cmake_object_order_depends_target_TemplatedLinkedlist: phony || CMakeFiles/TemplatedLinkedlist.dir
+
+build CMakeFiles/TemplatedLinkedlist.dir/LinkedList/LinkedList.cpp.o: CXX_COMPILER__TemplatedLinkedlist_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList/LinkedList.cpp || cmake_object_order_depends_target_TemplatedLinkedlist
+  DEP_FILE = CMakeFiles/TemplatedLinkedlist.dir/LinkedList/LinkedList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/TemplatedLinkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles/TemplatedLinkedlist.dir/LinkedList
+
+build CMakeFiles/TemplatedLinkedlist.dir/LinkedList/linkedlistTester.cpp.o: CXX_COMPILER__TemplatedLinkedlist_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList/linkedlistTester.cpp || cmake_object_order_depends_target_TemplatedLinkedlist
+  DEP_FILE = CMakeFiles/TemplatedLinkedlist.dir/LinkedList/linkedlistTester.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/TemplatedLinkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles/TemplatedLinkedlist.dir/LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TemplatedLinkedlist
+
+
+#############################################
+# Link the executable TemplatedLinkedlist
+
+build TemplatedLinkedlist: CXX_EXECUTABLE_LINKER__TemplatedLinkedlist_Debug CMakeFiles/TemplatedLinkedlist.dir/LinkedList/LinkedList.cpp.o CMakeFiles/TemplatedLinkedlist.dir/LinkedList/linkedlistTester.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/TemplatedLinkedlist.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TemplatedLinkedlist
+  TARGET_PDB = TemplatedLinkedlist.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/LinkedList/LinkedList.cpp.o: CXX_COMPILER__Stack_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList/LinkedList.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/LinkedList/LinkedList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir/LinkedList
+
+build CMakeFiles/Stack.dir/Stack/Stack.cpp.o: CXX_COMPILER__Stack_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack/Stack.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/Stack/Stack.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir/Stack
+
+build CMakeFiles/Stack.dir/Stack/stackTester.cpp.o: CXX_COMPILER__Stack_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack/stackTester.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/Stack/stackTester.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir/Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack
+
+build Stack: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/LinkedList/LinkedList.cpp.o CMakeFiles/Stack.dir/Stack/Stack.cpp.o CMakeFiles/Stack.dir/Stack/stackTester.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stack
+  TARGET_PDB = Stack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Order-only phony target for Queue
+
+build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+
+build CMakeFiles/Queue.dir/LinkedList/LinkedList.cpp.o: CXX_COMPILER__Queue_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList/LinkedList.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles/Queue.dir/LinkedList/LinkedList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue.dir/LinkedList
+
+build CMakeFiles/Queue.dir/Queue/Queue.cpp.o: CXX_COMPILER__Queue_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue/Queue.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles/Queue.dir/Queue/Queue.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue.dir/Queue
+
+build CMakeFiles/Queue.dir/Queue/queueTester.cpp.o: CXX_COMPILER__Queue_Debug /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue/queueTester.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles/Queue.dir/Queue/queueTester.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/LinkedList -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Queue -I/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/Stack
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue.dir/Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Link the executable Queue
+
+build Queue: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/LinkedList/LinkedList.cpp.o CMakeFiles/Queue.dir/Queue/Queue.cpp.o CMakeFiles/Queue.dir/Queue/queueTester.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue
+  TARGET_PDB = Queue.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects -B/Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/shermanyan/CLionProjects/CS008/TemplatedLinkedListProjects/cmake-build-debug
+
+build all: phony TemplatedLinkedlist Stack Queue
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

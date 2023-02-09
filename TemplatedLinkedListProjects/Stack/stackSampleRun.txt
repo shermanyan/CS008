@@ -1,0 +1,21 @@
+stack: [10] [9] [8] [7] [6] [5] [4] [3] [2] [1] 
+
+copy stack to stack1
+stack size: 5
+stack1 size: 5
+
+add to stack1
+
+stack
+top: 5
+size: 5
+[5] [4] [3] [2] [1] 
+
+stack1
+top: 10
+size: 10
+[10] [9] [8] [7] [6] [5] [4] [3] [2] [1] 
+
+seek test
+seek 5: 11
+stack: [15] [14] [13] [12] [11] [10] [9] [8] [7] [6] [5] [4] [3] [2] [1] 

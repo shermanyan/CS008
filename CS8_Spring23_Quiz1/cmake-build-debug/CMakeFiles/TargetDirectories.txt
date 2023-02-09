@@ -1,0 +1,3 @@
+/Users/shermanyan/CLionProjects/CS8_Spring23_Quiz1/cmake-build-debug/CMakeFiles/CS8_Spring23_Quiz1.dir
+/Users/shermanyan/CLionProjects/CS8_Spring23_Quiz1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shermanyan/CLionProjects/CS8_Spring23_Quiz1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+# ninja log v5
+6	277	1675901147513437962	CMakeFiles/Queue.dir/Queue/Queue.cpp.o	ba3a56d2d66fb3ef
+6	284	1675891466994484340	CMakeFiles/Queue.dir/LinkedList/LinkedList.cpp.o	7100ea0b42d78586
+6	280	1675890635521941134	CMakeFiles/TemplatedLinkedlist.dir/LinkedList/LinkedList.cpp.o	ba22044752c2093f
+6	53	1675890657763067566	TemplatedLinkedlist	dc099f94fe0f3a31
+0	308	1675891462006689064	CMakeFiles/Stack.dir/LinkedList/LinkedList.cpp.o	63709de39e6d12e4
+6	398	1675901265179242327	CMakeFiles/Queue.dir/Queue/queueTester.cpp.o	ff86b5d7a8bebc24
+7	298	1675900566274749532	CMakeFiles/Stack.dir/Stack/Stack.cpp.o	bc5847682a33fd72
+399	457	1675901265240491537	Queue	555346cee2e4a11b
+7	311	1675890635555510663	CMakeFiles/TemplatedLinkedlist.dir/LinkedList/linkedlistTester.cpp.o	94e589380aa194a
+341	385	1675901232265302303	Stack	e84fc78b27c3ac92
+6	341	1675901232219531687	CMakeFiles/Stack.dir/Stack/stackTester.cpp.o	359a9fd2c9c59cc1
+10	373	1675901712545715521	CMakeFiles/Queue.dir/LinkedList/LinkedList.cpp.o	f6d314d49d75c78d
+11	373	1675901712545714563	CMakeFiles/Queue.dir/Queue/Queue.cpp.o	d2a12d22e80c5397
+11	427	1675901712601075403	CMakeFiles/Queue.dir/Queue/queueTester.cpp.o	b5223125c8bc8d8b
+428	471	1675901712646615844	Queue	555346cee2e4a11b
