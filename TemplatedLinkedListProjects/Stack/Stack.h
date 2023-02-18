@@ -13,7 +13,6 @@ public:
     Stack();
 
     void push(T item);
-
     void pop();
 
     T top();
@@ -21,7 +20,6 @@ public:
 
     using LinkedList<T>::size;
     using LinkedList<T>::empty;
-
 
 };
 

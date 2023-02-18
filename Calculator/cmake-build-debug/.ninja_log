@@ -1,0 +1,15 @@
+# ninja log v5
+963	1029	1676709712936239762	calculator	da53ee5ee5b817ee
+444	799	1676709712703943395	CMakeFiles/calculator.dir/ButtonColor.cpp.o	b407791abe6c190a
+578	962	1676709712867374888	CMakeFiles/calculator.dir/RPN.cpp.o	7276d446ebcc5025
+4	252	1676697291349911189	CMakeFiles/calculator.dir/SFML_tools/Position.cpp.o	e5d34af9a8ad72e9
+5	412	1676667314493556258	CMakeFiles/calculator.dir/SFML_tools/Fonts.cpp.o	a58b444d6aa5c8e
+6	712	1676709712615577110	CMakeFiles/calculator.dir/main.cpp.o	564b0715cf98873d
+6	623	1676709712526564370	CMakeFiles/calculator.dir/Screen.cpp.o	286271ffc6870b8
+2	682	1676574871748461592	CMakeFiles/calculator.dir/SFML_tools/SpriteImage.cpp.o	513d62dfd0ccff92
+5	693	1676708728568268885	CMakeFiles/calculator.dir/SFML_tools/Application.cpp.o	e803dfe68a611848
+7	640	1676709712544301044	CMakeFiles/calculator.dir/SFML_tools/Shapes/Squircle.cpp.o	da6d8b7db5848dcb
+7	444	1676709712347977979	CMakeFiles/calculator.dir/Helper.cpp.o	255b1d7676296de9
+5	578	1676709712481678045	CMakeFiles/calculator.dir/Button.cpp.o	99a8dd11b5e19122
+6	794	1676709712697796394	CMakeFiles/calculator.dir/Calculator.cpp.o	b6eeeeb9487ee50b
+6	358	1676708797617824799	CMakeFiles/calculator.dir/SFML_tools/MouseEvents.cpp.o	8642512b502ab6bc
