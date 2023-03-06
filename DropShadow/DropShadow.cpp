@@ -24,7 +24,6 @@ DropShadow<T>::DropShadow(T *obj){
     this->obj = obj;
 }
 
-
 template<typename T>
 void DropShadow<T>::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     states.transform.combine(obj->getTransform());

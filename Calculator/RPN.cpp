@@ -65,7 +65,7 @@ std::queue<std::string> RPN::toPostfix(const std::string &infix) {
 
     for (std::string s: v) {
 
-        if (isdigit(s[0]))
+        if (!isOperator(s[0]))
             postfix.push(s);
         else if (s[0] == '(')
             stack.push(s);

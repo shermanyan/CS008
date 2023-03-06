@@ -14,6 +14,10 @@ private:
     std::string windowName;
     sf::Vector2u windowSize;
     bool resizable = true;
+
+    void windowEventListener(sf::Event &event);
+    void windowUpdater();
+
 public:
     Application();
     Application(const std::string& windowName);
