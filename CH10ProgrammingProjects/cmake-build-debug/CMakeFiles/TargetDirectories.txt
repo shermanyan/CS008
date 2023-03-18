@@ -1,3 +1,0 @@
-/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/cmake-build-debug/CMakeFiles/CH10ProgrammingProjects.dir
-/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
