@@ -1138,33 +1138,13 @@
 		{
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/shermanyan/CLionProjects/CS008/Calculator/cmake-build-debug",
-		"source" : "/Users/shermanyan/CLionProjects/CS008/Calculator"
+		"build" : "/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/cmake-build-debug",
+		"source" : "/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects"
 	},
 	"version" : 
 	{

@@ -4,6 +4,7 @@ project(calculator)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(SFML_tools)
+include_directories(SFML_tools/fonts)
 
 add_executable(calculator
         SFML_tools/AppComponent.h

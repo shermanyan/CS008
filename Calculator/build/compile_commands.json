@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/Application.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Application.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Application.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/Fonts.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Fonts.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Fonts.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/MouseEvents.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/MouseEvents.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/MouseEvents.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/Position.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Position.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Position.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/SpriteImage.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/SpriteImage.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/SpriteImage.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/Button.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/Button.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/Button.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/Calculator.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/Calculator.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/Calculator.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/main.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/main.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/main.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/Screen.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/Screen.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/Screen.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/Helper.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/Helper.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/Helper.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/SFML_tools/Shapes/Squircle.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Shapes/Squircle.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/Shapes/Squircle.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/ButtonColor.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/ButtonColor.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/ButtonColor.cpp"
+},
+{
+  "directory": "/Users/shermanyan/CLionProjects/CS008/Calculator/build",
+  "command": "/usr/bin/clang++  -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools -I/Users/shermanyan/CLionProjects/CS008/Calculator/SFML_tools/fonts -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14 -o CMakeFiles/calculator.dir/RPN.cpp.o -c /Users/shermanyan/CLionProjects/CS008/Calculator/RPN.cpp",
+  "file": "/Users/shermanyan/CLionProjects/CS008/Calculator/RPN.cpp"
+}
+]

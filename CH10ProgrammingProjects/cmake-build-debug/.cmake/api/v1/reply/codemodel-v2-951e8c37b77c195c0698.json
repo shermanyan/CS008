@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "calculator",
+					"name" : "CH10ProgrammingProjects",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "calculator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculator-Debug-b0e8ba4716ed2bab30dc.json",
-					"name" : "calculator",
+					"id" : "CH10ProgrammingProjects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CH10ProgrammingProjects-Debug-c244fd22d012f56646e0.json",
+					"name" : "CH10ProgrammingProjects",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/shermanyan/CLionProjects/CS008/Calculator/cmake-build-debug",
-		"source" : "/Users/shermanyan/CLionProjects/CS008/Calculator"
+		"build" : "/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/cmake-build-debug",
+		"source" : "/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects"
 	},
 	"version" : 
 	{

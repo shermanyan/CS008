@@ -17,14 +17,11 @@ Tree<T>::~Tree() {
 
 template<typename T>
 void Tree<T>::deleteNode(Node<T> *node) {
-
-    if (node->left == nullptr && node->right == nullptr)
-        delete node;
-    else if (node->left)
+    if (node) {
         deleteNode(node->left);
-    else if (node->right)
         deleteNode(node->right);
-
+        delete node;
+    }
 }
 
 template<typename T>
@@ -151,6 +148,60 @@ template<typename T>
 template<typename S>
 void Tree<T>::inorder(void (S::*f)(T &), S &obj) {
     inorder(root,f,obj);
+}
+
+template<typename T>
+void Tree<T>::breadthFirst(void (*f)(T &)) {
+    std::queue<Node<T>*> q;
+
+    q.push(root);
+
+    while (!q.empty()) {
+        if (q.front()->left)
+            q.push(q.front()->left);
+        if (q.front()->right)
+            q.push(q.front()->right);
+
+        (*f)(q.front());
+
+        q.pop();
+    }
+}
+
+template<typename T>
+template<typename S>
+void Tree<T>::breadthFirst(void (S::*f)(T &), S &obj) {
+    std::queue<Node<T>*> q;
+
+    q.push(root);
+
+    while (!q.empty()){
+        if (q.front()->left)
+            q.push(q.front()->left);
+        if (q.front()->right)
+            q.push(q.front()->right);
+
+        (obj.*f)(q.front()->data);
+
+        q.pop();
+    }
+}
+
+template<typename T>
+void Tree<T>::printTree(Node<T>* node, int indent){
+
+    indent += 3;
+    if (node) {
+        printTree(node->right, indent);
+        std::cout << std::setw(indent-3) << node->data << "\n";
+        printTree(node->left, indent);
+    }
+}
+
+template<typename T>
+void Tree<T>::printTree() {
+
+    printTree(root);
 }
 
 
