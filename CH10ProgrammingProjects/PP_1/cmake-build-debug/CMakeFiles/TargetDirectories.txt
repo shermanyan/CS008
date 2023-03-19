@@ -1,0 +1,3 @@
+/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/PP_1/cmake-build-debug/CMakeFiles/PP_1.dir
+/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/PP_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shermanyan/CLionProjects/CS008/CH10ProgrammingProjects/PP_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
