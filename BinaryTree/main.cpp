@@ -34,7 +34,7 @@ int main() {
     return 0;
 }
 
-/* sample run
+/* sample run&
 Preorder: 8 2 0 0 6 5 3 4 7 9
 Postorder: 0 0 4 3 5 7 6 2 9 8
 Inorder: 0 0 2 3 4 5 6 7 8 9
