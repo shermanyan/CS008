@@ -1,0 +1,36 @@
+//
+// Created by Sherman Yan on 3/21/23.
+//
+
+#ifndef HEAPSPQUEUE_HEAP_H
+#define HEAPSPQUEUE_HEAP_H
+#include <vector>
+
+template<typename T>
+class Heap {
+private:
+    std::vector<T> v;
+    void reheapifyUp(int index);
+    void reheapifyDown(int index = 0);
+
+public:
+    Heap();
+    int getParent(int index);
+    int getLeftChild(int index);
+    int getRightChild(int index);
+    int getMaxChild(int index);
+    void swap(int a, int b);
+    void push(const T& item);
+    void pop();
+    T& top();
+    int size();
+    bool empty();
+
+    const std::vector<T> &getVector() const;
+
+};
+
+#include "Heap.cpp"
+
+
+#endif //HEAPSPQUEUE_HEAP_H

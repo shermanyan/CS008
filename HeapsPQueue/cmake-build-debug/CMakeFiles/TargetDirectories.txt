@@ -1,0 +1,3 @@
+/Users/shermanyan/CLionProjects/CS008/HeapsPQueue/cmake-build-debug/CMakeFiles/HeapsPQueue.dir
+/Users/shermanyan/CLionProjects/CS008/HeapsPQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shermanyan/CLionProjects/CS008/HeapsPQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -16,6 +16,7 @@ public:
     Cursor();
     Cursor(double interval);
 
+    void setCursorCharacter(char cursor);
     void update();
 
 };

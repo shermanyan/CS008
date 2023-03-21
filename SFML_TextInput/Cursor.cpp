@@ -3,7 +3,6 @@
 //
 
 #include "Cursor.h"
-#include <cmath>
 #include <iostream>
 
 Cursor::Cursor(): Cursor(0.5){
@@ -21,4 +20,8 @@ void Cursor::update() {
         clock.restart();
         toggleState(ACTIVE);
     }
+}
+
+void Cursor::setCursorCharacter(char cursor) {
+    setString(cursor);
 }

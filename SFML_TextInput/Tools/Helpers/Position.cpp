@@ -3,7 +3,7 @@
 //
 #ifndef POSITION_CPP
 #define POSITION_CPP
-
+#include <cmath>
 #include "Position.h"
 template<class T, class S>
 void Position::left(T& self, const S& ref, float spacing) {
