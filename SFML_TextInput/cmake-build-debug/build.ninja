@@ -151,8 +151,8 @@ build CMakeFiles/TextInput.dir/Cursor.cpp.o: CXX_COMPILER__TextInput_Debug /User
   OBJECT_DIR = CMakeFiles/TextInput.dir
   OBJECT_FILE_DIR = CMakeFiles/TextInput.dir
 
-build CMakeFiles/TextInput.dir/project.cpp.o: CXX_COMPILER__TextInput_Debug /Users/shermanyan/CLionProjects/CS008/SFML_TextInput/project.cpp || cmake_object_order_depends_target_TextInput
-  DEP_FILE = CMakeFiles/TextInput.dir/project.cpp.o.d
+build CMakeFiles/TextInput.dir/TextboxLabel.cpp.o: CXX_COMPILER__TextInput_Debug /Users/shermanyan/CLionProjects/CS008/SFML_TextInput/TextboxLabel.cpp || cmake_object_order_depends_target_TextInput
+  DEP_FILE = CMakeFiles/TextInput.dir/TextboxLabel.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
   INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Tools/History -I/Users/shermanyan/CLionProjects/CS008/SFML_TextInput/Typing -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/TextInput.dir
@@ -166,7 +166,7 @@ build CMakeFiles/TextInput.dir/project.cpp.o: CXX_COMPILER__TextInput_Debug /Use
 #############################################
 # Link the executable TextInput
 
-build TextInput: CXX_EXECUTABLE_LINKER__TextInput_Debug CMakeFiles/TextInput.dir/Tools/App/Application.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/KeyboardShortcuts.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/MouseEvents.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/Position.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/States.cpp.o CMakeFiles/TextInput.dir/Tools/History/History.cpp.o CMakeFiles/TextInput.dir/Tools/History/Snapshot.cpp.o CMakeFiles/TextInput.dir/Tools/Fonts.cpp.o CMakeFiles/TextInput.dir/Typing/Letter.cpp.o CMakeFiles/TextInput.dir/Typing/MultiText.cpp.o CMakeFiles/TextInput.dir/Typing/Typing.cpp.o CMakeFiles/TextInput.dir/main.cpp.o CMakeFiles/TextInput.dir/TextInput.cpp.o CMakeFiles/TextInput.dir/TextBox.cpp.o CMakeFiles/TextInput.dir/Cursor.cpp.o CMakeFiles/TextInput.dir/project.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+build TextInput: CXX_EXECUTABLE_LINKER__TextInput_Debug CMakeFiles/TextInput.dir/Tools/App/Application.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/KeyboardShortcuts.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/MouseEvents.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/Position.cpp.o CMakeFiles/TextInput.dir/Tools/Helpers/States.cpp.o CMakeFiles/TextInput.dir/Tools/History/History.cpp.o CMakeFiles/TextInput.dir/Tools/History/Snapshot.cpp.o CMakeFiles/TextInput.dir/Tools/Fonts.cpp.o CMakeFiles/TextInput.dir/Typing/Letter.cpp.o CMakeFiles/TextInput.dir/Typing/MultiText.cpp.o CMakeFiles/TextInput.dir/Typing/Typing.cpp.o CMakeFiles/TextInput.dir/main.cpp.o CMakeFiles/TextInput.dir/TextInput.cpp.o CMakeFiles/TextInput.dir/TextBox.cpp.o CMakeFiles/TextInput.dir/Cursor.cpp.o CMakeFiles/TextInput.dir/TextboxLabel.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   OBJECT_DIR = CMakeFiles/TextInput.dir

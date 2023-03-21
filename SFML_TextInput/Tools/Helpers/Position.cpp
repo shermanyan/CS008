@@ -24,8 +24,8 @@ template<class T, class S>
 void Position::center(T& self, const S& ref) {
     sf::FloatRect s = self.getGlobalBounds();
     sf::FloatRect r = ref.getGlobalBounds();
-    self.setPosition({s.left - ((s.left + s.width/2) - (r.left + r.width/2)),
-                      s.top - ((s.top + s.height/2) - (r.top + r.height/2))});
+    self.setPosition({s.left + ((r.left + (r.width/2)) - (s.left + (s.width/2))),
+                      s.top + ((r.top + (r.height/2)) - (s.top + (s.height/2)))});
 }
 
 template<class T, class S>
@@ -55,9 +55,7 @@ void Position::centerText(S& text, const T& ref) {
 
 template<class T, class S>
 void Position::alignLeft(T &self, const S &ref) {
-    sf::FloatRect s = self.getGlobalBounds();
-    sf::FloatRect r = ref.getGlobalBounds();
-    self.setPosition(r.left, s.top);
+    self.setPosition(ref.getPosition().x, self.getPosition().y);
 }
 
 template<class T, class S>
@@ -69,10 +67,7 @@ void Position::alignRight(T &self, const S &ref) {
 
 template<class T, class S>
 void Position::alignTop(T &self, const S &ref) {
-    sf::FloatRect s = self.getGlobalBounds();
-    sf::FloatRect r = ref.getGlobalBounds();
-    self.setPosition(s.left, r.top);
-
+    self.setPosition(self.getPosition().x, ref.getPosition().y);
 }
 
 template<class T, class S>

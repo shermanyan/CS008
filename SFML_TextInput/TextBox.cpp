@@ -98,6 +98,9 @@ Typing* TextBox::getText(){
 sf::FloatRect TextBox::getGlobalBounds() const {
     return box.getGlobalBounds();
 }
+sf::FloatRect TextBox::getLocalBounds() const {
+    return box.getLocalBounds();
+}
 
 void TextBox::setPosition(const sf::Vector2f &pos) {
     Transformable::setPosition(pos);

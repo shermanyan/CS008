@@ -1,13 +1,15 @@
 #include <iostream>
 #include "TextInput.h"
 #include "Application.h"
-#include "project.h"
 int main()
 {
-    TextInput t;
+    TextInput firstName("First Name:"),lastName("Last Name:") ;
     Application textBoxApp("Text Input");
-    textBoxApp.addComponent(t);
-    t.setPosition({100, 100});
+    textBoxApp.addComponent(firstName);
+    textBoxApp.addComponent(lastName);
+    firstName.setPosition({200,100});
+    Position::alignLeft(lastName,firstName);
+    Position::bottom(lastName,firstName,30);
 
     textBoxApp.run();
     return 0;
