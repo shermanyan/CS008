@@ -24,16 +24,33 @@ MultiText::MultiText(const std::string &string) {
 void MultiText::addCharacter(char c) {
     letter.setString(std::string(1,c));
     text.push_back(letter);
-
-    if (text.size() > 1) {
-        sf::FloatRect prevPos = std::prev(text.end(),2)->getGlobalBounds();
-        text.back().setPosition(prevPos.left + prevPos.width + std::prev(text.end(),2)->getLetterSpacing(),0);
-    }
+//
+//    if (text.size() > 1) {
+//        sf::FloatRect prevPos = std::prev(text.end(),2)->getGlobalBounds();
+//        text.back().setPosition(prevPos.left + prevPos.width + std::prev(text.end(),2)->getLetterSpacing(),0);
+//    }
 }
 
 void MultiText::pop_back() {
     if (!text.empty())
         text.pop_back();
+}
+
+void MultiText::pop_front() {
+    if (!text.empty())
+        text.pop_front();
+}
+
+void MultiText::push_front(Letter letter) {
+    text.push_front(letter);
+}
+
+Letter *MultiText::front() {
+    return &text.front();
+}
+
+Letter *MultiText::back() {
+    return &text.back();
 }
 
 void MultiText::clear() {
@@ -116,3 +133,13 @@ sf::FloatRect MultiText::getLocalBounds() const {
 int MultiText::length() {
     return text.size();
 }
+
+void MultiText::updatePosition() {
+    text.begin()->setPosition(0,0);
+
+    for (auto it = std::next(text.begin()) ; it != text.end(); it++) {
+        sf::FloatRect prevPos = std::prev(it)->getGlobalBounds();
+        it->setPosition(prevPos.left + prevPos.width + std::prev(it)->getLetterSpacing(), 0);
+    }
+}
+

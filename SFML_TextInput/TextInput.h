@@ -15,6 +15,8 @@ private:
     TextboxLabel label;
     bool isOperator(char c);
 
+    void colorWord(MultiText *&text, const std::string &target, const sf::Color &color);
+
 public:
     TextInput();
     TextInput(const std::string& label);

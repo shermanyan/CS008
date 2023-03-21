@@ -10,7 +10,7 @@ void TextBox::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     target.draw(box);
     target.draw(text);
 
-    if (c.checkStates(ACTIVE) && c.checkStates(SELECTED))
+    if (c.checkStates(ACTIVE) && checkStates(SELECTED))
         target.draw(c);
 
 }
@@ -34,7 +34,7 @@ void TextBox::setupTextBox() {
     setFillColor(sf::Color::Transparent);
     setOutlineColor(sf::Color::White);
 
-    c.setState(SELECTED,false);
+    setState(SELECTED,false);
 }
 void TextBox::setFont(sf::Font &font) {
     text.setFont(font);
@@ -65,27 +65,51 @@ void TextBox::setOutlineColor(const sf::Color &color) {
 }
 
 void TextBox::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
-    if(event.type == sf::Event::TextEntered && c.checkStates(SELECTED)) {
+
+    if(checkStates(SELECTED)) {
         text.eventHandler(window, event);
     }
+
+    else if (MouseEvents::isClick(box,window)) {
+        setState(SELECTED, true);
+    }
+    else if(MouseEvents::isClick(window)) {
+        setState(SELECTED, false);
+    }
+
 }
 
 void TextBox::update(const sf::RenderWindow &window) {
-    if (MouseEvents::isClick(box,window)) {
-        c.setState(SELECTED, true);
-    }
-    else if(MouseEvents::isClick(window)) {
-        c.setState(SELECTED, false);
-    }
-    if (c.checkStates(SELECTED)){
+    if (checkStates(SELECTED)){
+        text.updatePosition();
+        updateTextBox();
+
         sf::FloatRect tPos = text.getGlobalBounds();
         c.setPosition(tPos.left + tPos.width, c.getPosition().y);
         c.update();
     }
+
 }
 
+void TextBox::updateTextBox() {
+
+    int buffer = 30;
+    if (text.getGlobalBounds().width + buffer> box.getSize().x) {
+        hiddenLetters.emplace(*text.front());
+        text.pop_front();
+
+    } else if (!hiddenLetters.empty() && text.getGlobalBounds().width +
+                                         text.back()->getLetterSpacing() +
+                                         hiddenLetters.top().getGlobalBounds().width +
+                                         hiddenLetters.top().getLetterSpacing() +buffer < box.getSize().x ){
+
+        text.push_front(hiddenLetters.top());
+        hiddenLetters.pop();
+    }
+}
+
+
 Snapshot TextBox::getSnapshot() {
-    return Snapshot(text.getString());
 }
 
 void TextBox::applySnapshot(const Snapshot &snapshot) {

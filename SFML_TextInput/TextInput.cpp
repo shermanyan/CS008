@@ -13,6 +13,7 @@ TextInput::TextInput(const std::string &label):TextInput() {
 }
 
 void TextInput::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
+
     textBox.eventHandler(window,event);
 
     if(event.TextEntered) {
@@ -26,13 +27,17 @@ void TextInput::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
             text->setFillColor(sf::Color::Green, s.length() - 1);
         }
 
-        if (s.length() >= 3 && s.substr(s.length() - 3).find("int") != std::string::npos)
-            text->setFillColor(sf::Color::Blue, s.length() - 3, 3);
-        else if (s.length() >= 6 && s.substr(s.length() - 6).find("double") != std::string::npos)
-            text->setFillColor(sf::Color::Blue, s.length() - 6, 6);
-        else if (s.length() >= 5 && s.substr(s.length() - 5).find("float") != std::string::npos)
-            text->setFillColor(sf::Color::Blue, s.length() - 5, 5);
+        colorWord(text,"int",sf::Color::Blue);
+        colorWord(text,"double",sf::Color::Blue);
+        colorWord(text,"float",sf::Color::Blue);
     }
+}
+
+void TextInput::colorWord(MultiText *&text, const std::string& target, const sf::Color& color) {
+    std::string str = text->getString();
+    unsigned long t = target.length() , s = str.length();
+    if (s >= t && str.substr(s - t).find(target) != std::string::npos)
+        text->setFillColor(color, s - t, t);
 
 }
 

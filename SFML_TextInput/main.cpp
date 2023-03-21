@@ -3,13 +3,13 @@
 #include "Application.h"
 int main()
 {
-    TextInput firstName("First Name:"),lastName("Last Name:") ;
+    TextInput email("Email:"),name("Name:") ;
     Application textBoxApp("Text Input");
-    textBoxApp.addComponent(firstName);
-    textBoxApp.addComponent(lastName);
-    firstName.setPosition({200,100});
-    Position::alignLeft(lastName,firstName);
-    Position::bottom(lastName,firstName,30);
+    textBoxApp.addComponent(name);
+    textBoxApp.addComponent(email);
+    email.setPosition({200,100});
+    Position::alignLeft(name,email);
+    Position::bottom(name,email,30);
 
     textBoxApp.run();
     return 0;

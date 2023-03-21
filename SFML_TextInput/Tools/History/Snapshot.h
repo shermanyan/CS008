@@ -2,22 +2,21 @@
 // Created by Sherman Yan on 3/19/23.
 //
 
-#ifndef TEXTINPUT_SNAPSHOT_H
-#define TEXTINPUT_SNAPSHOT_H
+#ifndef SNAPSHOT_H
+#define SNAPSHOT_H
 
 #include <string>
+
 class Snapshot {
-private:
-    std::string data;
-
-public:
-    explicit Snapshot(const std::string &data);
-
-    const std::string &getData() const;
-
-    void setData(const std::string &data);
+//private:
+//    decltype data;
+//public:
+//    explicit Snapshot(const auto &data);
+//    const auto &getData() const;
+//    void setData(const auto &data);
 
 };
 
 
-#endif //TEXTINPUT_SNAPSHOT_H
+
+#endif //SNAPSHOT_H

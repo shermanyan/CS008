@@ -10,13 +10,10 @@ Typing::Typing() {
 }
 
 void Typing::eventHandler(const sf::Window &window, const sf::Event &event) {
-    if(event.TextEntered) {
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::BackSpace)) {
-            pop_back();
-        } else if (event.text.unicode < 128 && event.text.unicode != 8) {
-            addCharacter((char) event.text.unicode);
-        }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::BackSpace)||
+            sf::Keyboard::isKeyPressed(sf::Keyboard::LSystem) && sf::Keyboard::isKeyPressed(sf::Keyboard::Z)) {
+        pop_back();
     }
-
-
+    else if (event.type == sf::Event::TextEntered && event.text.unicode < 128 && event.text.unicode != 8)
+        addCharacter((char)event.text.unicode);
 }

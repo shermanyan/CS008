@@ -15,16 +15,21 @@
 #include "Fonts.h"
 #include "Cursor.h"
 #include "MouseEvents.h"
+#include <stack>
 
-class TextBox: public AppComponent, public sf::Transformable{
+class TextBox: public AppComponent, public sf::Transformable, public States{
 private:
+
+    std::stack<Letter> hiddenLetters;
+
     Typing text;
     sf::Text label;
     sf::RectangleShape box;
-
     Cursor c;
 
     void setupTextBox();
+    void updateTextBox();
+
 public:
     TextBox();
     TextBox(const std::string& label);

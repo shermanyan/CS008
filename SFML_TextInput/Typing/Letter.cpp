@@ -12,4 +12,8 @@ Letter::Letter(char c) {
     setString(std::string(1,c));
 }
 
+Letter::Letter(const Letter &letter) {
+    *this = letter;
+}
+
 

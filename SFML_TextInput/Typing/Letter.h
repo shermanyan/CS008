@@ -10,6 +10,7 @@ class Letter: public sf::Text {
 public:
     Letter();
     Letter(char c);
+    Letter(const Letter& letter);
 
 };
 
