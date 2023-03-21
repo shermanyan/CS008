@@ -6,9 +6,10 @@
 #include <iostream>
 
 void MultiText::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+    states.transform *= getTransform();
     std::list<Letter>::iterator i;
     for (auto& l : text) {
-        target.draw(l,states.transform*getTransform());
+        target.draw(l,states);
     }
 }
 MultiText::MultiText() {

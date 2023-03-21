@@ -5,8 +5,7 @@
 #include "project.h"
 
 void project::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    states.transform *= getTransform();
-    target.draw(t,states);
+    target.draw(t,getTransform());
 }
 
 void project::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
@@ -23,3 +22,4 @@ Snapshot project::getSnapshot() {
 void project::applySnapshot(const Snapshot &snapshot) {
 
 }
+

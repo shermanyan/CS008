@@ -6,13 +6,12 @@
 #include <iostream>
 
 void TextBox::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    states.transform *= getTransform();
 
-    target.draw(box,states);
-    target.draw(text,states);
+    target.draw(box);
+    target.draw(text);
 
     if (c.checkStates(ACTIVE) && c.checkStates(SELECTED))
-        target.draw(c, states);
+        target.draw(c);
 
 }
 
@@ -29,7 +28,7 @@ TextBox::TextBox(const sf::Vector2f &boxSize):TextBox() {
 }
 
 void TextBox::setupTextBox() {
-    setBoxSize({400, 80});
+    setBoxSize({600, 80});
     setFont(Fonts::getFont(OPEN_SANS));
     setOutlineThickness(5);
     setFillColor(sf::Color::Transparent);
@@ -49,8 +48,6 @@ void TextBox::setOutlineThickness(float size) {
 void TextBox::setBoxSize(const sf::Vector2f &size) {
     box.setSize(size);
     text.setCharacterSize(size.y*.77);
-    text.setPosition(10,0);
-
     c.setCharacterSize(text.getCharacterSize());
 }
 
@@ -67,7 +64,6 @@ void TextBox::setOutlineColor(const sf::Color &color) {
     box.setOutlineColor(color);
 }
 
-
 void TextBox::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
     if(event.type == sf::Event::TextEntered && c.checkStates(SELECTED)) {
         text.eventHandler(window, event);
@@ -75,7 +71,7 @@ void TextBox::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
 }
 
 void TextBox::update(const sf::RenderWindow &window) {
-    if (MouseEvents::isClick(*this,window)) {
+    if (MouseEvents::isClick(box,window)) {
         c.setState(SELECTED, true);
     }
     else if(MouseEvents::isClick(window)) {
@@ -83,7 +79,7 @@ void TextBox::update(const sf::RenderWindow &window) {
     }
     if (c.checkStates(SELECTED)){
         sf::FloatRect tPos = text.getGlobalBounds();
-        c.setPosition(tPos.left + tPos.width, 0);
+        c.setPosition(tPos.left + tPos.width, c.getPosition().y);
         c.update();
     }
 }
@@ -100,10 +96,18 @@ Typing* TextBox::getText(){
 }
 
 sf::FloatRect TextBox::getGlobalBounds() const {
-//    return getTransform().transformRect(box.getGlobalBounds());
     return box.getGlobalBounds();
+}
 
+void TextBox::setPosition(const sf::Vector2f &pos) {
+    Transformable::setPosition(pos);
+    box.setPosition(pos);
+    text.setPosition(pos.x + 10, pos.y);
+    c.setPosition(pos);
+}
 
+void TextBox::setPosition(float x, float y) {
+    setPosition({x, y});
 }
 
 

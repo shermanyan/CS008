@@ -47,8 +47,8 @@ bool TextInput::isOperator(char c) {
 }
 
 void TextInput::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    states.transform *= getTransform();
-    target.draw(textBox,states);
+    target.draw(textBox);
+    target.draw(label);
 }
 
 Snapshot TextInput::getSnapshot() {
@@ -59,7 +59,16 @@ void TextInput::applySnapshot(const Snapshot &snapshot) {
 }
 
 sf::FloatRect TextInput::getGlobalBounds() const {
-    return getTransform().transformRect(textBox.getGlobalBounds());
+    return textBox.getGlobalBounds();
+}
+
+void TextInput::setPosition(const sf::Vector2f &pos) {
+    Transformable::setPosition(pos);
+    textBox.setPosition(pos);
+}
+
+void TextInput::setPosition(float x, float y) {
+    setPosition({x,y});
 }
 
 

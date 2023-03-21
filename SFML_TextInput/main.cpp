@@ -4,10 +4,10 @@
 #include "project.h"
 int main()
 {
-    project t;
+    TextInput t;
     Application textBoxApp("Text Input");
     textBoxApp.addComponent(t);
-    t.setPosition(100,200);
+    t.setPosition({100, 100});
 
     textBoxApp.run();
     return 0;

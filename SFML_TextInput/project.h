@@ -23,6 +23,7 @@ public:
     Snapshot getSnapshot() override;
 
     void applySnapshot(const Snapshot &snapshot) override;
+
 };
 
 

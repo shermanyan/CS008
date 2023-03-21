@@ -8,7 +8,7 @@
 #include "TextBox.h"
 #include "AppComponent.h"
 
-class TextInput: public AppComponent, public sf::Transformable {
+class TextInput: public AppComponent, public sf::Transformable{
 private:
     TextBox textBox;
     sf::Text label;
@@ -29,6 +29,8 @@ public:
 
     void applySnapshot(const Snapshot &snapshot) override;
 
+    void setPosition(const sf::Vector2f& pos);
+    void setPosition(float x, float y);
 
 };
 
