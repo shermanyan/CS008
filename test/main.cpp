@@ -1,20 +1,11 @@
 #include <iostream>
-#include <list>
-
+#include <string>
 int main() {
 
 
-    std::list<int> l;
+    std::string s = "this is a big bird";
 
-    for (int i = 0; i < 10 ; ++i) {
-        l.push_back(i);
-    }
-
-    for (const int& i : l) {
-        std::cout << i << " ";
-    }
-
-
-
-return 0;
+    std::cout << s.substr(s.length()-3);
+    return 0;
 }
+djfkaf;double
