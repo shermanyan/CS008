@@ -69,7 +69,6 @@ void TextBox::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
     if(checkStates(SELECTED)) {
         text.eventHandler(window, event);
     }
-
     else if (MouseEvents::isClick(box,window)) {
         setState(SELECTED, true);
     }
