@@ -12,7 +12,8 @@ void TextBox::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     target.draw(text,states);
 
     if (c.checkStates(ACTIVE) && c.checkStates(SELECTED))
-        target.draw(c,states);
+        target.draw(c, states);
+
 }
 
 TextBox::TextBox() {
@@ -94,12 +95,15 @@ Snapshot TextBox::getSnapshot() {
 void TextBox::applySnapshot(const Snapshot &snapshot) {
 }
 
-Typing* TextBox::modifyText(){
+Typing* TextBox::getText(){
     return &text;
 }
 
 sf::FloatRect TextBox::getGlobalBounds() const {
-    return getTransform().transformRect(box.getGlobalBounds());
+//    return getTransform().transformRect(box.getGlobalBounds());
+    return box.getGlobalBounds();
+
+
 }
 
 

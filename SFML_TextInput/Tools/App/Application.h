@@ -16,6 +16,8 @@ private:
     sf::Vector2u windowSize;
     bool resizable = true;
 
+//    sf::RectangleShape r;
+
     void windowEventListener(sf::Event &event);
     void windowUpdater();
 
@@ -31,9 +33,8 @@ public:
     void disableResize();
     void run();
 
-    virtual void eventHandler(sf::RenderWindow& window, const sf::Event& event) = 0;
-    virtual void updater(sf::RenderWindow& window) = 0;
-
+    virtual void eventHandler(sf::RenderWindow& window, const sf::Event& event);
+    virtual void updater(sf::RenderWindow& window);
 };
 
 

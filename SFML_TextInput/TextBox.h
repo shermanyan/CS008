@@ -45,9 +45,10 @@ public:
 
     void applySnapshot(const Snapshot &snapshot) override;
 
-    Typing* modifyText();
+    Typing* getText();
 
     sf::FloatRect getGlobalBounds()const;
+
 };
 
 

@@ -1,9 +1,14 @@
 #include <iostream>
 #include "TextInput.h"
-int main() {
+#include "Application.h"
+#include "project.h"
+int main()
+{
+    project t;
+    Application textBoxApp("Text Input");
+    textBoxApp.addComponent(t);
+    t.setPosition(100,200);
 
-    TextInput t;
-
-    t.run();
+    textBoxApp.run();
     return 0;
 }

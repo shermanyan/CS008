@@ -40,7 +40,7 @@ add_executable(TextInput
         Typing/MultiText.h
         Typing/Typing.cpp
         Typing/Typing.h
-        main.cpp TextInput.cpp TextInput.h TextBox.cpp TextBox.h Cursor.cpp Cursor.h)
+        main.cpp TextInput.cpp TextInput.h TextBox.cpp TextBox.h Cursor.cpp Cursor.h project.cpp project.h)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 target_link_libraries(TextInput sfml-graphics)

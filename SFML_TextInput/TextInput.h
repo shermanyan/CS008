@@ -6,17 +6,29 @@
 #define TEXTINPUT_TEXTINPUT_H
 
 #include "TextBox.h"
-#include "Application.h"
-#include "Cursor.h"
-class TextInput: public Application {
+#include "AppComponent.h"
+
+class TextInput: public AppComponent, public sf::Transformable {
 private:
-    TextBox t;
+    TextBox textBox;
+    sf::Text label;
     bool isOperator(char c);
 
 public:
     TextInput();
-    void eventHandler(RenderWindow &window, const sf::Event &event) override;
-    void updater(RenderWindow &window) override;
+
+    sf::FloatRect getGlobalBounds() const;
+
+    void eventHandler(sf::RenderWindow &window, const sf::Event &event) override;
+
+    void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
+
+    void update(const sf::RenderWindow &window) override;
+
+    Snapshot getSnapshot() override;
+
+    void applySnapshot(const Snapshot &snapshot) override;
+
 
 };
 

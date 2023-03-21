@@ -21,194 +21,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f309dae3-ea4c-40db-a7d6-21088eca374d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Cursor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Cursor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Resources/Fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/TextBox.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/TextBox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/TextInput.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/TextInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/App/AppComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/App/Application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/App/Application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/App/EventHandleable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/App/Updatable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Enums/FontsEnum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Enums/StatesEnum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Fonts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/KeyboardShortcuts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/KeyboardShortcuts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/MouseEvents.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/MouseEvents.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/Position.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/Position.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/States.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/Helpers/States.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/History.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/History.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/HistoryNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/Snapshot.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/Snapshot.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Tools/History/SnapshotInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/Letter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/Letter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/MultiText.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/MultiText.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/Typing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/Typing/Typing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/reply/cache-v2-16bb4b543e7a26e756fd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d9e3b18eefd47f5c30a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b57293a485ebf36c82cc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/TextInput.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/App/Application.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/Fonts.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/Helpers/KeyboardShortcuts.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/Helpers/MouseEvents.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/Helpers/Position.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/Helpers/States.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/History/History.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Tools/History/Snapshot.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Typing/Letter.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Typing/MultiText.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Typing/Typing.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/TextInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_TextInput/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/MultiText/Letter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/MultiText/Letter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/MultiText/MultiText.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/MultiText/MultiText.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/SFMLTools/Position.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/SFMLTools/Position.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/Typing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/Typing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b171893f4756cc113d80.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1e91c5791f96ef951b27.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b87b6ef842182d05e379.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-20T05-59-09-0562.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/target-TypingInSFML-Debug-13a27dadd0e9a1f0377b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b57293a485ebf36c82cc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/TypingInSFML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SFML_Typing/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/.idea/MultiText.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/MultiText/Letter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/MultiText/Letter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/MultiText/MultiText.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/MultiText/MultiText.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/SFMLTools/Position.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/SFMLTools/Position.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/Typing.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/Typing.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/cache-v2-79a5c592e3b814f6ac0b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9b8204e7cc3707776ce4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c48d6aaea961f5b6e7ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-06T06-49-13-0522.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/target-TypingInSFML-Debug-b22e9c0d984ec394e016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b57293a485ebf36c82cc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TypingInSFML.dir/MultiText/Letter.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TypingInSFML.dir/MultiText/Letters.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TypingInSFML.dir/MultiText/MultiText.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TypingInSFML.dir/Typing.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/TypingInSFML.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/TypingInSFML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TypingInSFML/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-02-22T06-01-53-0928.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFMLTemplate/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFMLTemplate/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/TextInput.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/TextInput.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/TextInput.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/TextInput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/TextInput" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/TextInput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679337151225</updated>
-      <workItem from="1679337152429" duration="2746000" />
+      <workItem from="1679337152429" duration="2760000" />
     </task>
     <servers />
   </component>

@@ -6,15 +6,13 @@
 #include <iostream>
 
 TextInput::TextInput(){
-    addComponent(t);
-    t.setPosition(100,100);
-
 }
 
 void TextInput::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
+    textBox.eventHandler(window,event);
 
     if(event.TextEntered) {
-        MultiText *text = t.modifyText();
+        MultiText *text = textBox.getText();
 
         std::string s = text->getString();
 
@@ -34,8 +32,9 @@ void TextInput::eventHandler(sf::RenderWindow &window, const sf::Event &event) {
 
 }
 
-void TextInput::updater(sf::RenderWindow &window) {
+void TextInput::update(const sf::RenderWindow &window) {
 
+    textBox.update(window);
 }
 
 bool TextInput::isOperator(char c) {
@@ -46,3 +45,21 @@ bool TextInput::isOperator(char c) {
     }
     return false;
 }
+
+void TextInput::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+    states.transform *= getTransform();
+    target.draw(textBox,states);
+}
+
+Snapshot TextInput::getSnapshot() {
+}
+
+void TextInput::applySnapshot(const Snapshot &snapshot) {
+
+}
+
+sf::FloatRect TextInput::getGlobalBounds() const {
+    return getTransform().transformRect(textBox.getGlobalBounds());
+}
+
+
