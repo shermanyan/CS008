@@ -13,13 +13,14 @@ private:
     void reheapifyUp(int index);
     void reheapifyDown(int index = 0);
 
-public:
-    Heap();
+    int getMaxChild(int index);
     int getParent(int index);
     int getLeftChild(int index);
     int getRightChild(int index);
-    int getMaxChild(int index);
     void swap(int a, int b);
+
+public:
+    Heap();
     void push(const T& item);
     void pop();
     T& top();
@@ -27,6 +28,8 @@ public:
     bool empty();
 
     const std::vector<T> &getVector() const;
+
+    void operator += (const T& item);
 
 };
 

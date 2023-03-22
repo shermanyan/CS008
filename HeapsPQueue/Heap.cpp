@@ -103,4 +103,9 @@ bool Heap<T>::empty() {
     return v.empty();
 }
 
+template<typename T>
+void Heap<T>::operator+=(const T &item) {
+    push(item);
+}
+
 #endif

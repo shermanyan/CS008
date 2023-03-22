@@ -9,6 +9,7 @@ int main() {
         heap.push(i * (rand()%15));
     }
 
+    heap += 100;
     std::vector<int> v = heap.getVector();
 
     std::cout << "Heap check: ";
