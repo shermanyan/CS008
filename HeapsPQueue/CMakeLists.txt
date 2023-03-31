@@ -3,4 +3,4 @@ project(HeapsPQueue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HeapsPQueue main.cpp Node.h Heap.cpp Heap.h)
+add_executable(HeapsPQueue main.cpp Heap.cpp Heap.h)
