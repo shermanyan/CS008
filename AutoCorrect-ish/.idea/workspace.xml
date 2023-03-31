@@ -20,98 +20,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492898f2-a010-4a90-bb76-35da8eb1e2b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileReader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileReader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Heap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Heap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/App/AppComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/App/Application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/App/Application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/App/EventHandleable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/App/Updatable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Enums/FontsEnum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Enums/StatesEnum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Fonts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/KeyboardShortcuts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/KeyboardShortcuts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/MouseEvents.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/MouseEvents.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/Position.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/Position.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/States.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/Helpers/States.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/History.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/History.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/HistoryNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/Snapshot.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/Snapshot.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/History/SnapshotInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/Letter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/Letter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/MultiText.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/MultiText.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/Cursor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/Cursor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextBox.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextBox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextInput.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextboxLabel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/TextInput/TextboxLabel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/Typing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Typing/Typing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordSuggester.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordSuggester.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordSuggestion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordSuggestion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b57293a485ebf36c82cc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordDatabase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapsPQueue/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/Node.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f607409f042d7d53bcf6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-21T17-24-16-0904.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.cmake/api/v1/reply/target-HeapsPQueue-Debug-afdf29ce5425cb18af0d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapsPQueue/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFMLTemplate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SFMLTemplate/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFMLTemplate/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFMLTemplate/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Cursor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/Cursor.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/TextBox.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/TextBox.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/TextInput.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/TextInput.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/CMakeFiles/TextInput.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/TextInput" beforeDir="false" afterPath="$PROJECT_DIR$/../SFML_TextInput/cmake-build-debug/TextInput" afterDir="false" />
+    <list default="true" id="492898f2-a010-4a90-bb76-35da8eb1e2b8" name="Changes" comment="autocorrect finished">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AutoCorrect_ish" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AutoCorrect_ish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,8 +101,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679590368620</updated>
-      <workItem from="1679590369991" duration="27593000" />
+      <workItem from="1679590369991" duration="27915000" />
     </task>
+    <task id="LOCAL-00001" summary="autocorrect finished">
+      <created>1680244638503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680244638504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,5 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="autocorrect finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="autocorrect finished" />
   </component>
 </project>
