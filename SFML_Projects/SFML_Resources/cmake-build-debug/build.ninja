@@ -1,0 +1,246 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: SFML_Resources
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target SFML_Resources
+
+
+#############################################
+# Order-only phony target for SFML_Resources
+
+build cmake_object_order_depends_target_SFML_Resources: phony || CMakeFiles/SFML_Resources.dir
+
+build CMakeFiles/SFML_Resources.dir/Components/ScrollableContainer/ScrollableContainer.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer/ScrollableContainer.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/ScrollableContainer/ScrollableContainer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/ScrollableContainer
+
+build CMakeFiles/SFML_Resources.dir/Tools/App/Application.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App/Application.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/App/Application.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/App
+
+build CMakeFiles/SFML_Resources.dir/Tools/Helpers/KeyboardShortcuts.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers/KeyboardShortcuts.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/Helpers/KeyboardShortcuts.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/Helpers
+
+build CMakeFiles/SFML_Resources.dir/Tools/Helpers/MouseEvents.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers/MouseEvents.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/Helpers/MouseEvents.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/Helpers
+
+build CMakeFiles/SFML_Resources.dir/Tools/Helpers/Position.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers/Position.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/Helpers/Position.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/Helpers
+
+build CMakeFiles/SFML_Resources.dir/Tools/Helpers/States.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers/States.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/Helpers/States.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/Helpers
+
+build CMakeFiles/SFML_Resources.dir/Tools/History/History.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History/History.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/History/History.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/History
+
+build CMakeFiles/SFML_Resources.dir/Tools/History/Snapshot.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History/Snapshot.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/History/Snapshot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools/History
+
+build CMakeFiles/SFML_Resources.dir/Tools/Fonts.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Fonts.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Tools/Fonts.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Tools
+
+build CMakeFiles/SFML_Resources.dir/Components/TextInput/Cursor.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput/Cursor.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/TextInput/Cursor.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/TextInput
+
+build CMakeFiles/SFML_Resources.dir/Components/TextInput/TextBox.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput/TextBox.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/TextInput/TextBox.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/TextInput
+
+build CMakeFiles/SFML_Resources.dir/Components/TextInput/TextboxLabel.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput/TextboxLabel.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/TextInput/TextboxLabel.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/TextInput
+
+build CMakeFiles/SFML_Resources.dir/Components/TextInput/TextInput.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput/TextInput.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/TextInput/TextInput.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/TextInput
+
+build CMakeFiles/SFML_Resources.dir/Components/Typing/Letter.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing/Letter.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/Typing/Letter.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/Typing
+
+build CMakeFiles/SFML_Resources.dir/Components/Typing/MultiText.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing/MultiText.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/Typing/MultiText.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/Typing
+
+build CMakeFiles/SFML_Resources.dir/Components/Typing/Typing.cpp.o: CXX_COMPILER__SFML_Resources_Debug /Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing/Typing.cpp || cmake_object_order_depends_target_SFML_Resources
+  DEP_FILE = CMakeFiles/SFML_Resources.dir/Components/Typing/Typing.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/ScrollableContainer -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/TextInput -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Components/Typing -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/App -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Enums -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/Helpers -I/Users/shermanyan/CLionProjects/CS008/SFML_Resources/Tools/History -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  OBJECT_FILE_DIR = CMakeFiles/SFML_Resources.dir/Components/Typing
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SFML_Resources
+
+
+#############################################
+# Link the executable SFML_Resources
+
+build SFML_Resources: CXX_EXECUTABLE_LINKER__SFML_Resources_Debug CMakeFiles/SFML_Resources.dir/Components/ScrollableContainer/ScrollableContainer.cpp.o CMakeFiles/SFML_Resources.dir/Tools/App/Application.cpp.o CMakeFiles/SFML_Resources.dir/Tools/Helpers/KeyboardShortcuts.cpp.o CMakeFiles/SFML_Resources.dir/Tools/Helpers/MouseEvents.cpp.o CMakeFiles/SFML_Resources.dir/Tools/Helpers/Position.cpp.o CMakeFiles/SFML_Resources.dir/Tools/Helpers/States.cpp.o CMakeFiles/SFML_Resources.dir/Tools/History/History.cpp.o CMakeFiles/SFML_Resources.dir/Tools/History/Snapshot.cpp.o CMakeFiles/SFML_Resources.dir/Tools/Fonts.cpp.o CMakeFiles/SFML_Resources.dir/Components/TextInput/Cursor.cpp.o CMakeFiles/SFML_Resources.dir/Components/TextInput/TextBox.cpp.o CMakeFiles/SFML_Resources.dir/Components/TextInput/TextboxLabel.cpp.o CMakeFiles/SFML_Resources.dir/Components/TextInput/TextInput.cpp.o CMakeFiles/SFML_Resources.dir/Components/Typing/Letter.cpp.o CMakeFiles/SFML_Resources.dir/Components/Typing/MultiText.cpp.o CMakeFiles/SFML_Resources.dir/Components/Typing/Typing.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  OBJECT_DIR = CMakeFiles/SFML_Resources.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SFML_Resources
+  TARGET_PDB = SFML_Resources.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shermanyan/CLionProjects/CS008/SFML_Resources -B/Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug
+
+build all: phony SFML_Resources
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

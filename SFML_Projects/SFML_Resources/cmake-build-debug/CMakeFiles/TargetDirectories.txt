@@ -1,0 +1,3 @@
+/Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug/CMakeFiles/SFML_Resources.dir
+/Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shermanyan/CLionProjects/CS008/SFML_Resources/cmake-build-debug/CMakeFiles/rebuild_cache.dir
