@@ -1,5 +1,10 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/shermanyan/CLionProjects/CS008/SFML_Projects/FileTree -B /Users/shermanyan/CLionProjects/CS008/SFML_Projects/FileTree/cmake-build-debug
 -- Found SFML 2.5.1 in /opt/homebrew/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/shermanyan/CLionProjects/CS008/SFML_Projects/FileTree/cmake-build-debug
+CMake Error at CMakeLists.txt:65 (target_link_libraries):
+  Cannot specify link libraries for target "SFMLTemplate" which is not built
+  by this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/shermanyan/CLionProjects/CS008/SFML_Projects/FileTree/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/shermanyan/CLionProjects/CS008/SFML_Projects/FileTree/cmake-build-debug/CMakeFiles/CMakeError.log".
