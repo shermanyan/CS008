@@ -62,4 +62,4 @@ add_executable(FileTree
         main.cpp)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
-target_link_libraries(SFMLTemplate sfml-graphics)
+target_link_libraries(FileTree sfml-graphics)

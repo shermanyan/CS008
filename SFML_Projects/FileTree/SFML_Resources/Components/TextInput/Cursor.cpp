@@ -3,7 +3,6 @@
 //
 
 #include "Cursor.h"
-#include <iostream>
 
 Cursor::Cursor(): Cursor(0.5){
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shermanyan/CLionProjects/CS008/Calculator
+# Install script for directory: /Users/shermanyan/CLionProjects/CS008/SFML_Projects/Calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/shermanyan/CLionProjects/CS008/Calculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/shermanyan/CLionProjects/CS008/SFML_Projects/Calculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

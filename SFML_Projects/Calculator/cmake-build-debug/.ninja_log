@@ -1,9 +1,9 @@
 # ninja log v5
 6	564	1678603500894363849	CMakeFiles/calculator.dir/SFML_tools/Fonts.cpp.o	cd3c8a09d12ec621
 1139	1185	1678603501519168736	calculator	da53ee5ee5b817ee
+564	964	1678603501294988196	CMakeFiles/calculator.dir/ButtonColor.cpp.o	ecea0f3457524bf4
 772	1139	1678603501471314002	CMakeFiles/calculator.dir/RPN.cpp.o	e17438b704c3cb21
 6	494	1678603500824540311	CMakeFiles/calculator.dir/SFML_tools/Position.cpp.o	f8b665e6a75b313d
-564	964	1678603501294988196	CMakeFiles/calculator.dir/ButtonColor.cpp.o	ecea0f3457524bf4
 476	979	1678603501310086325	CMakeFiles/calculator.dir/main.cpp.o	4d3561e2d1e8b0e6
 494	965	1678603501293958124	CMakeFiles/calculator.dir/Screen.cpp.o	7a32eb4e6358d2a4
 7	495	1678603500825820422	CMakeFiles/calculator.dir/SFML_tools/SpriteImage.cpp.o	a5813a5ab1c2cc73
@@ -13,3 +13,17 @@
 9	475	1678603500805631557	CMakeFiles/calculator.dir/Button.cpp.o	f801c175576ff5e9
 464	1047	1678603501378768042	CMakeFiles/calculator.dir/Calculator.cpp.o	fb61995dd3e7bc5a
 6	464	1678603500793128900	CMakeFiles/calculator.dir/SFML_tools/MouseEvents.cpp.o	5671516754bd3fe4
+5	470	1681199789655880120	CMakeFiles/calculator.dir/SFML_tools/Position.cpp.o	8b18e5464c41b7f4
+5	476	1681199789662576030	CMakeFiles/calculator.dir/SFML_tools/MouseEvents.cpp.o	3803ed8f283928a0
+6	490	1681199789675633145	CMakeFiles/calculator.dir/SFML_tools/SpriteImage.cpp.o	70d3b8fe8e21c87a
+6	502	1681199789688317183	CMakeFiles/calculator.dir/Button.cpp.o	afee22eb730199d6
+4	516	1681199789699653113	CMakeFiles/calculator.dir/SFML_tools/Application.cpp.o	b9fedb8014065ec2
+5	558	1681199789739351037	CMakeFiles/calculator.dir/SFML_tools/Fonts.cpp.o	208dffc50702dec6
+503	795	1681199789979887963	CMakeFiles/calculator.dir/Helper.cpp.o	801cbf3ad17fd76e
+559	960	1681199790146794839	CMakeFiles/calculator.dir/ButtonColor.cpp.o	121df68e0f00e79f
+517	962	1681199790145068696	CMakeFiles/calculator.dir/SFML_tools/Shapes/Squircle.cpp.o	a1b01ddcaa04ebcb
+490	987	1681199790173905974	CMakeFiles/calculator.dir/Screen.cpp.o	bf660e118ca9887
+476	1002	1681199790187974784	CMakeFiles/calculator.dir/main.cpp.o	b878f7e1163476fc
+470	1052	1681199790238556103	CMakeFiles/calculator.dir/Calculator.cpp.o	83b9254615000645
+795	1160	1681199790347571467	CMakeFiles/calculator.dir/RPN.cpp.o	fc6ba87f624f565d
+1161	1197	1681199790386129032	calculator	da53ee5ee5b817ee

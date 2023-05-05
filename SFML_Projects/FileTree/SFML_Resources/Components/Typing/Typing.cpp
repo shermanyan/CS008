@@ -3,7 +3,6 @@
 //
 
 #include "Typing.h"
-#include <iostream>
 
 Typing::Typing() {
 
